@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 24px;
+}
+
+.left-nav {
+    display: flex;
+}
+
+.left-nav__bars {
+    display: none;
+}
+
+.left-nav svg {
+    margin: 0 10px;
+}
+.category-list {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.category-item {
+    padding: 0 16px;
+}
+
+.right-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    width: fit-content;
+    height: 50px;
+    background-color: #181421;
+    color: white;
+    border-radius: 5px;
+    padding: 6px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.free-trial {
+    margin: 0 20px 0 40px;
+}
+
+.login {
+    margin: 0 10px;
+}
+
+@media screen and (min-width: 576px) and (max-width: 1024px) {
+    .right-nav svg {
+        display: none;
+    }
+    
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 1024px), (max-width: 576px) {
+    .left-nav .category-list {
+        display: none;
+    }
+
+    .right-nav .login {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    nav {
+        flex-direction: row-reverse;
+    }
+
+    .left-nav {
+    }
+    
+    .right-nav {
+    }   
+
+    .right-nav .free-trial {
+        display: none;
+    }
+
+    .nav {
+        justify-content: space-between;
+    }
+
+    .left-nav__bars {
+        display: flex;
+    }
+}
