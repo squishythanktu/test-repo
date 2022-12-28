@@ -56,7 +56,7 @@
     margin-top: 50px;
 }
 
-.h-decor-1, .h-decor-2 {
+.h-decor-1, .h-decor-2, .h-decor-3 {
     position: relative;
     padding: 0 5.6rem;
 }
@@ -79,6 +79,30 @@
     width: 5.5rem;
     height: 5rem;
     right: 4.2%;
+    top: 30%;
+    margin-left: 4.5rem;
+    background: url(https://my-space.space/numerio/img/leaf-right.svg) no-repeat;
+    background-size: contain;
+}
+
+.h-decor-2::before {
+    position: absolute;
+    content: '';
+    width: 4rem;
+    height: 4rem;
+    left: 10.8%;
+    margin-right: 4.5rem;
+    top: -10%;
+    background: url('https://my-space.space/numerio/img/leaf-left.svg') no-repeat;
+    background-size: contain;
+}
+
+.h-decor-3::after {
+    position: absolute;
+    content: '';
+    width: 5.5rem;
+    height: 5rem;
+    right: 12.2%;
     top: 30%;
     margin-left: 4.5rem;
     background: url(https://my-space.space/numerio/img/leaf-right.svg) no-repeat;
