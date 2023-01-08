@@ -1,0 +1,79 @@
+h1 {
+  text-align: center;
+}
+
+.form {
+  margin: 0 auto;
+  padding: 15px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  border: 3px solid #000;
+  width: 50%;
+}
+
+form label,
+form input[type="text"],
+form input[type="password"],
+form input[type="email"] {
+  display: inline-block;
+  width: 99%;
+  margin: 6px 0;
+  font-size: 24px;
+}
+
+form span {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 0;
+}
+
+.form input[type="button"] {
+  padding: 10px 45px;
+  margin-top: 10px;
+  font-size: 24px;
+  font-size: 16px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+}
+
+table {
+  margin: 0 auto;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  margin-top: 20px;
+}
+
+table td,
+table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #000;
+  color: white;
+}
+
+table a {
+    color: lightseagreen;
+    text-decoration: underline;
+    cursor: pointer;
+}

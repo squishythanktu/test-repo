@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JavaScrip CRUD Example Tutorial</h1>
+    <form action="" class="form">
+        <input type="text" id="idPerson" style="display: none;">
+        <label for="fullname">Full Name: </label>
+        <input type="text" id="fullname">
+        <label for="email">Email: </label>
+        <input type="email" id="email">
+        <label for="salary">Salary: </label>
+        <input type="text" id="salary">
+        <label for="city">City: </label>
+        <input type="text" id="city">
+        <span>
+            <input type="button" value="Add" id="btnAdd"/>
+            <input type="button" value="Edit" id="btnEdit" style="display: none;"/>
+        </span>
+    </form>
+    <table id="table">
+        <thead>
+            <th>Full Name</th>
+            <th>Email</th>
+            <th>Salary</th>
+            <th>City</th>
+            <th>Actions</th>
+        </thead>
+        <tbody id="tableBody"></tbody>
+    </table>
+    
+    <script src="app.js"></script>
+</body>
+</html>
